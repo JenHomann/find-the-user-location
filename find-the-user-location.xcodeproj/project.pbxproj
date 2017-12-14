@@ -12,6 +12,7 @@
 		A36EC10A1FE300C2000FBBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36EC1081FE300C2000FBBCC /* Main.storyboard */; };
 		A36EC10C1FE300C2000FBBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36EC10B1FE300C2000FBBCC /* Assets.xcassets */; };
 		A36EC10F1FE300C2000FBBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36EC10D1FE300C2000FBBCC /* LaunchScreen.storyboard */; };
+		A36EC1181FE300DF000FBBCC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36EC1171FE300DF000FBBCC /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A36EC10B1FE300C2000FBBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A36EC10E1FE300C2000FBBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A36EC1101FE300C2000FBBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36EC1171FE300DF000FBBCC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36EC1181FE300DF000FBBCC /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				A36EC1031FE300C2000FBBCC /* find-the-user-location */,
 				A36EC1021FE300C2000FBBCC /* Products */,
+				A36EC1161FE300DE000FBBCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				A36EC1101FE300C2000FBBCC /* Info.plist */,
 			);
 			path = "find-the-user-location";
+			sourceTree = "<group>";
+		};
+		A36EC1161FE300DE000FBBCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A36EC1171FE300DF000FBBCC /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
